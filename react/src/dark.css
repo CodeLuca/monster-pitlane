@@ -1,0 +1,70 @@
+body {
+  background-color: #212121;
+  color: #ffffff;
+}
+
+#defaultLayout aside {
+  background-color: #212121;
+}
+
+#defaultLayout aside>a {
+  color: #ffffff;
+}
+
+#defaultLayout header {
+  background-color: #212121;
+  color: #ffffff;
+}
+
+#defaultLayout header a {
+  color: #ffffff;
+}
+
+#defaultLayout header button {
+  color: #ffffff;
+}
+
+#defaultLayout main {
+  background-color: #212121;
+  color: #ffffff;
+}
+
+#defaultLayout main a {
+  /* color: #ffffff; */
+}
+
+#defaultLayout main button {
+  color: #ffffff;
+}
+
+#defaultLayout main table>thead>tr>th {
+  background-color: #212121;
+  color: #ffffff;
+}
+
+#defaultLayout main table>tbody>tr>td {
+  border-bottom: 1px solid #ffffff;
+}
+
+#defaultLayout main .card {
+  background-color: #212121;
+  color: #ffffff;
+}
+
+#defaultLayout main .card a {
+  color: #ffffff;
+}
+
+#defaultLayout main .card button {
+  color: #ffffff;
+}
+
+#defaultLayout main .alert {
+  background-color: #b72424;
+  color: #ffffff;
+}
+
+#defaultLayout main .notification {
+  background-color: #00a762;
+  color: #ffffff;
+}
