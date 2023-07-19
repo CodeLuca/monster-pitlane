@@ -24,7 +24,7 @@ const Sidebar = ({ user, onLogout }) => {
       <div className={`flex flex-col w-16 md:w-64 bg-black h-screen fixed top-0`}>
         {/* Logo */}
         <div className="pt-4">
-          <img src="/logo.png" alt="Logo" className="w-100 pt-4 md:px-10 px-2" />
+          <img src="/Logo.png" alt="Logo" className="w-100 pt-4 md:px-10 px-2" />
         </div>
 
         {/* Links */}
