@@ -30,31 +30,10 @@ export default function Login() {
       })
   }
 
-  // return (
-  //   <div className="login-signup-form animated fadeInDown">
-  //     <div className="form">
-  //       <form onSubmit={onSubmit}>
-  //         <h1 className="title">LOGIN TO YOUR MONSTER ENERGY: PIT LANE</h1>
-
-  //         {message &&
-  //           <div className="alert">
-  //             <p>{message}</p>
-  //           </div>
-  //         }
-
-  //         <input ref={emailRef} type="email" placeholder="EMAIL" />
-  //         <input ref={passwordRef} type="password" placeholder="PASSWORD" />
-  //         <button className="btn w-full">LOGIN</button>
-  //         <p className="message">Not registered? <Link to="/signup">Create an account</Link></p>
-  //       </form>
-  //     </div>
-  //   </div>
-  // );
-
 
   return (
     <div className="w-full flex flex-col justify-center items-center" style={{ minHeight: '100vh' }}>
-      <img src="/logo.png" alt="Logo" className="max-w-xs p-5" />
+      <img src="/Logo.png" alt="Logo" className="max-w-xs p-5" />
       <div className="w-full max-w-md">
         <form className="bg-black shadow-md px-8 pt-6 pb-8 mb-4" onSubmit={onSubmit}>
           <h1 className="text-5xl py-5 green-gradient-text font-bold">LOGIN</h1>

@@ -1,11 +1,4 @@
-# Laravel React Example Full Stack Application
-Example Application build with Laravel and React
-
-> The repo was created while I was working on the following [YouTube tutorial](https://youtu.be/qJq9ZMB2Was)
-
-## Demo
-https://laravel-react.com
-
+# Monster Pitlane
 
 ## Installation 
 Make sure you have environment setup properly. You will need PHP8.1, composer and Node.js.

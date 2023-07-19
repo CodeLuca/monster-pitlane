@@ -36,7 +36,7 @@ export default function Signup() {
   return (
 
     <div className="w-full flex flex-col justify-center items-center" style={{ minHeight: '100vh' }}>
-      <img src="/logo.png" alt="Logo" className="max-w-xs p-5" />
+      <img src="/Logo.png" alt="Logo" className="max-w-xs p-5" />
       <div className="w-full max-w-md">
         <form className="bg-black shadow-md px-8 pt-6 pb-8 mb-4" onSubmit={onSubmit}>
           <h1 className="text-5xl py-5 green-gradient-text font-bold">REGISTER</h1>
