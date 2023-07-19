@@ -70,9 +70,9 @@ class VideoController extends Controller
       'filename' => $filename,
       'thumbnail' => $thumbnailfilename,
       'description' => $request->description,
-      'news_tag' => $request->news,
-      'events_tag' => $request->events,
-      'educational_tag' => $request->educational,
+      'news_tag' => $request->news=='true' ? 1 : 0,
+      'events_tag' => $request->events=='true' ? 1 : 0,
+      'educational_tag' => $request->educational=='true' ? 1 : 0,
       'author' => $user->name,
     ]);
 
